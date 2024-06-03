@@ -6,35 +6,36 @@ The Employee Management System is a Python application that leverages Tkinter fo
 
 **Add Employee:**
 
-Allows users to add a new employee by entering their ID, name, and salary.
-Validates input to ensure that the employee ID is unique, the name is valid, and the salary is a positive number.
+  -  Allows users to add a new employee by entering their ID, name, and salary.
+  -  Validates input to ensure that the employee ID is unique, the name is valid, and the salary is a positive number.
 
 **View Employees:**
 
-Displays a list of all employees stored in the database.
-Each employee entry includes ID, name, and salary.
+  -  Displays a list of all employees stored in the database.
+  -  Each employee entry includes ID, name, and salary.
 
 **Update Employee:**
 
-Allows users to update the details of an existing employee.
-Users can modify the employee's name and salary based on the employee ID.
+  -  Allows users to update the details of an existing employee.
+  -  Users can modify the employee's name and salary based on the employee ID.
 
 **Delete Employee:**
 
-Enables users to delete an employee record from the database using the employee ID.
+  -  Enables users to delete an employee record from the database using the employee ID.
 
 **Location Display:**
 
-Fetches and displays the current location (city and region) of the user using the ipinfo.io API.
+  -  Fetches and displays the current location (city and region) of the user using the ipinfo.io API.
 
 **Temperature Display:**
 
-Fetches and displays the current temperature in a specified city (e.g., Mumbai) using the OpenWeatherMap API.
+  -  Fetches and displays the current temperature in a specified city (e.g., Mumbai) using the OpenWeatherMap API.
 
 **Salary Chart:**
 
-Generates and displays a bar chart of the top 5 employees by salary.
-Uses Matplotlib to create the chart and updates it dynamically based on the current database entries.
+  -  Generates and displays a bar chart of the top 5 employees by salary.
+  
+  -  Uses Matplotlib to create the chart and updates it dynamically based on the current database entries.
 
 ## Implementation Details
 
