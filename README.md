@@ -2,6 +2,12 @@
 
 The Employee Management System is a Python application that leverages Tkinter for its graphical user interface (GUI) and SQLite for its database management. The system allows users to manage employee records efficiently and includes features such as adding, viewing, updating, and deleting employee information. Additionally, it provides functionalities to display current location and temperature, as well as visualizing the top 5 employees by salary using a bar chart.
 
+## Database:
+
+1. Install sqlite3
+2. In terminal Open or Create database with **sqlite3 employee.db** and table name **employee**
+3. CREATE TABLE employee(id INTEGER PRIMARY KEY,name TEXT,salary REAL);
+
 ## Key Features
 
 **Add Employee:**
@@ -46,7 +52,9 @@ The Employee Management System is a Python application that leverages Tkinter fo
 ## APIs:
 
 **Location:** The ipinfo.io API is used to fetch the user's current location.
+
 **Temperature:** The OpenWeatherMap API is used to fetch the current temperature in a specified city.
+
 **Data Validation:** Functions are implemented to validate employee ID, name, and salary inputs to ensure data integrity.
 
 ## Input Validations:
@@ -75,3 +83,24 @@ The Employee Management System is a Python application that leverages Tkinter fo
 **Main window:**
 
 ![Screenshot 2024-06-03 225102](https://github.com/Pratham3642/Employee-Management/assets/162919475/8a257442-2f5b-4bfb-b6f7-0976a5095c9d)
+
+**Add window:**
+
+
+![Screenshot 2024-06-03 224916](https://github.com/Pratham3642/Employee-Management/assets/162919475/83b31f73-9604-4df4-97f0-8272c482cf02)
+
+**View Window:**
+
+![Screenshot 2024-06-03 225023](https://github.com/Pratham3642/Employee-Management/assets/162919475/e1803ba6-6e42-4aac-a91a-c5d155c262f0)
+
+**Update Window:**
+
+![Screenshot 2024-06-03 225035](https://github.com/Pratham3642/Employee-Management/assets/162919475/6e3b0e25-d1a0-447c-b3c9-b774ea2d398c)
+
+**Delete Window:**
+
+![Screenshot 2024-06-03 225048](https://github.com/Pratham3642/Employee-Management/assets/162919475/6fb164ca-d15a-4192-ba9e-f5179f4375f1)
+
+**Chart :**
+
+![Screenshot 2024-06-03 225116](https://github.com/Pratham3642/Employee-Management/assets/162919475/83842660-be31-4cbf-b7dd-fbd0f470ea58)
