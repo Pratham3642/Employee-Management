@@ -70,3 +70,8 @@ The Employee Management System is a Python application that leverages Tkinter fo
 -  Verifies if the salary is a positive number.
 -  Returns appropriate error messages if validation fails.
 
+## Output 
+
+**Main window:**
+
+![Screenshot 2024-06-03 225102](https://github.com/Pratham3642/Employee-Management/assets/162919475/8a257442-2f5b-4bfb-b6f7-0976a5095c9d)
