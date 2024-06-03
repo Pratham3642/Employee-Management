@@ -49,3 +49,24 @@ The Employee Management System is a Python application that leverages Tkinter fo
 **Temperature:** The OpenWeatherMap API is used to fetch the current temperature in a specified city.
 **Data Validation:** Functions are implemented to validate employee ID, name, and salary inputs to ensure data integrity.
 
+## Input Validations:
+
+**Employee ID Validation (validateid()):**
+
+-  Checks if the ID field is empty.
+-  Verifies if the ID is a positive integer.
+-   eturns appropriate error messages if validation fails.
+
+**Employee Name Validation (validatename()):**
+
+-  Ensures that the name field is not empty and does not contain only spaces.
+-  Validates if the name contains only alphabetical characters.
+-  Checks if the name length is between 2 and 50 characters.
+-  Returns specific error messages based on validation results.
+
+**Salary Validation (validatesalary()):**
+
+-  Validates if the salary field is not empty.
+-  Verifies if the salary is a positive number.
+-  Returns appropriate error messages if validation fails.
+
